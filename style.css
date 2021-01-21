@@ -67,3 +67,32 @@ font-size:1.5em;
 #profile img {
     border-radius:50%;
 }
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin-top:5%;
+}
+
+main input {
+    width:400px;
+    border-radius:10px;
+    line-height:2em;
+    margin-top:30px;
+    padding-left:10px;
+    font-size:1em;
+    color: rgba(68, 68, 68, 0.9);
+    border:1px solid #ccc;
+   box-shadow: 2px 2px 5px #ccc;
+}
+
+main input:focus {
+    outline:none;
+}
+
+@media screen and (min-width: 600px) {
+    main input {
+        width:500px;
+    }
+}
