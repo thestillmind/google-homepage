@@ -1,0 +1,51 @@
+
+@font-face {
+    font-family: 'Ubuntu', sans-serif;
+    src: url(https://fonts.gstatic.com/s/ubuntu/v15/4iCs6KVjbNBYlgoKcg72j00.woff2) format('woff2');
+    font-display: swap;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    color: rgba(68, 68, 68, 0.9);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+nav {
+    display:flex;
+    justify-content: space-between;
+    margin-top:3%;
+    font-size:0.7em;
+}
+
+nav ul {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+
+nav .left {
+   margin-left:3%;
+}
+nav .right {
+    margin-right:3%;
+}
+
+nav li {
+    display:inline;
+    padding:0 5px;
+}
+
+#apps {
+
+}
+
+#profile {
+    
+}
