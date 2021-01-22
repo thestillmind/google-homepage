@@ -30,6 +30,10 @@ li {
 
  a {
     color:inherit;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
 }
 
 nav {
@@ -106,13 +110,24 @@ main input:focus {
     background-color:#F8F9FA;
     border:none;
     padding:10px;
+    cursor: pointer;
+    border:1px solid transparent;
+    border-radius:5px;
 }
 
 .search-buttons button:first-child {
-    margin-right:13px;
+    margin-right:7px;
 }
-.search-buttons:last-child{
-    margin-left:13px;
+.search-buttons button:last-child{
+    margin-left:7px;
+}
+
+.search-buttons button:focus {
+    outline:none;
+}
+
+.search-buttons button:hover {
+    border:1px solid #ccc;
 }
 
 footer {
