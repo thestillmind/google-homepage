@@ -116,8 +116,11 @@ main input:focus {
 }
 
 footer {
-    display: flex;
+    display:
     justify-content:space-between;
+    background-color: red;
+    height:50vh;
+    align-items: flex-end;
 }
 
 footer li {
