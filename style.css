@@ -23,21 +23,21 @@ ul {
     padding:0;
 }
 
+li {
+    display:inline;
+    padding:0;
+}
+
+ a {
+    color:inherit;
+}
+
 nav {
     display:flex;
     justify-content: space-between;
     margin-top:1%;
     font-size:0.8em;
     align-items:center;
-}
-
-nav li {
-    display:inline;
-    padding:0 5px;
-}
-
-nav a {
-    color:inherit;
 }
 
 nav .nav-left {
@@ -116,14 +116,47 @@ main input:focus {
 }
 
 footer {
-    display:
-    justify-content:space-between;
-    background-color: red;
-    height:50vh;
-    align-items: flex-end;
+   position: fixed;
+   bottom:0;
+   left:0;
+   width:100%;
+   height:40px;
+   padding-bottom:10px;
+   font-size:0.9em;
+   background-color: #F2F2F2;
 }
 
-footer li {
-    display: inline;
-   
+
+.footer-links {
+    display:flex;
+    justify-content:space-between;
+    align-items: flex-end;
+    height:100%;
+  
+}
+
+.footer-left {
+    display: flex;
+    margin-left:3%;
+    align-items:center;  
+}
+
+.footer-left {
+    display: flex;
+    margin-left:3%;
+    align-items:center;  
+}
+
+.footer-right {
+    display: flex;
+    margin-right:3%;
+    align-items:center;  
+}
+
+.footer-left li:not(:first-child) {
+    padding-left:10px;
+}
+
+.footer-right li:not(:last-child){
+ padding-right:10px;
 }
