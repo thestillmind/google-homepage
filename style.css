@@ -78,17 +78,16 @@ main {
     margin-top:20%;
 }
 
-main img {
+main .img-container{
     width:50%;
-}
-@media screen and (min-width: 600px) {
-    main {
-        margin-top:8%;
+    display: flex;
     }
-    
-    main img {
-        width:272px;
-    }
+
+.img-container img {
+    width: 100%;
+    max-width: 272px;
+    height: auto;
+    margin:auto;
 }
 
 .search-bar {
@@ -103,11 +102,6 @@ main img {
  
 }
 
-@media screen and (min-width: 600px) {
-    .search-bar {
-        width:40%;
-    }
-}
 
 .search-bar input {
     border:none;
@@ -157,6 +151,31 @@ main img {
 
 .search-buttons button:hover {
     border:1px solid #ccc;
+}
+
+
+@media screen and (min-width:600px){
+
+
+    .search-bar {
+        width:60%;
+    }
+}
+
+@media screen and (min-width: 770px) {
+    main {
+        margin-top:8%;
+    }
+
+    .search-bar {
+        width:40%;
+    }
+}
+
+@media screen and (min-width:2560px) {
+    .search-bar {
+        width:25%;
+    }
 }
 
 footer {
