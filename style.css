@@ -75,16 +75,16 @@ main {
     display: flex;
     flex-direction: column;
     align-items:center;
-    margin-top:20%;
+    margin-top:10%;
 }
 
-main .img-container{
+main .img-container {
     width:50%;
     display: flex;
     }
 
 .img-container img {
-    width: 100%;
+    width: 80%;
     max-width: 272px;
     height: auto;
     margin:auto;
@@ -98,8 +98,7 @@ main .img-container{
     border:1px solid #ccc;
     border-radius:20px;
     box-shadow: 2px 2px 5px #ccc;
-    margin-top:30px;
- 
+    margin-top:20px; 
 }
 
 
@@ -153,20 +152,32 @@ main .img-container{
     border:1px solid #ccc;
 }
 
-
+@media screen and (min-width:383px) {
+    main img {
+        
+    }
+}
 @media screen and (min-width:600px){
-
 
     .search-bar {
         width:60%;
     }
 }
 
-@media screen and (min-width: 770px) {
+@media screen and (min-width: 768px) {
     main {
-        margin-top:8%;
+        margin-top:5%;
     }
 
+    .img-container img {
+        width:50%;
+    }
+    .search-bar {
+        width:70%;
+    }
+}
+
+@media screen and (min-width:1440px) {
     .search-bar {
         width:40%;
     }
