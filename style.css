@@ -124,7 +124,7 @@ main .img-container {
 
 .search-buttons {
     display: flex;
-    margin-top:30px;
+    margin-top:20px;
 }
 
 
@@ -153,8 +153,12 @@ main .img-container {
 }
 
 @media screen and (min-width:383px) {
-    main img {
-        
+    main {
+        margin-top:3%;
+    }
+
+    .img-container img {
+        width:50%;
     }
 }
 @media screen and (min-width:600px){
@@ -162,11 +166,16 @@ main .img-container {
     .search-bar {
         width:60%;
     }
+
+    .search-buttons {
+        display: flex;
+        margin-top:30px;
+    }
 }
 
 @media screen and (min-width: 768px) {
     main {
-        margin-top:5%;
+        margin-top:3%;
     }
 
     .img-container img {
@@ -177,7 +186,18 @@ main .img-container {
     }
 }
 
+@media screen and (min-width:1024px) {
+    .search-bar {
+        width:40%;
+    }
+}
+
 @media screen and (min-width:1440px) {
+    
+    .img-container img {
+        width:40%;
+    }
+    
     .search-bar {
         width:40%;
     }
